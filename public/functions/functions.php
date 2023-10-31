@@ -4,7 +4,7 @@ class Functions{
 {
 
     //Laad de database gegevens uit het config bestand
-    $db = require(__DIR__ . './config.php');
+    $db = require_once(__DIR__ . '/config.php');
 
     try {
         // Hier maken we de database verbinding

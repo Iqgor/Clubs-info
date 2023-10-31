@@ -1,0 +1,84 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 2rem;
+
+    margin: 0 auto;
+    width: 90%;
+
+
+}
+
+.clubs{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.club{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    height: 40rem ;
+    gap: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.club__img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.club_info{
+    width: 100%;
+    height: 30rem;
+}
+
+
+.club__link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh ;
+}
+
+.clubArt{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.img{
+    height: 20rem;
+    width: 20rem;
+}

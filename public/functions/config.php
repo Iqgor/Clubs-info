@@ -2,13 +2,12 @@
 
 $config = [
     'server' => 'mariadb',
-    'database' => 'newsletters',
-    'username' => 'root',
-    'password' => '4dy5qwtrsag#!sad',
+    'database' => 'clubs',
+    'username' => 'db_user',
+    'password' => 'mijn_p@ss#',
     'port' =>  3306 
 
 ]; 
 
 
 return $config;
-?>
